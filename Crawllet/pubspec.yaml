@@ -1,0 +1,65 @@
+name: crawllet
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  animated_text_kit: ^4.2.2
+  cloud_firestore: any
+  cupertino_icons: ^1.0.2
+  firebase_auth: any
+  firebase_core: any
+  flutter:
+    sdk: flutter
+  flutter_color: ^2.0.0
+  flutter_switch: ^0.3.2
+  font_awesome_flutter: ^10.1.0
+  get: ^4.6.5
+  http: ^0.13.5
+  custom_bottom_sheet: ^1.1.2
+  simple_month_year_picker: ^0.0.2
+  water_drop_nav_bar: ^2.2.0+3
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.5
+  flutter_test:
+    sdk: flutter
+  objectbox_generator: any
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/main.png"
+  adaptive_icon_background: "#BF4040"
+
+flutter_native_splash:
+  color: "#545775"
+  image: assets/icons/main.png
+  android12: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/gifs/
+    - assets/imgs/
+
+  fonts:
+    - family: myanamarText
+      fonts:
+        - asset: assets/fonts/myanamarText.ttf
+        - asset: assets/fonts/myanamarTextBold.ttf
+          weight: 900
+    - family: rockwell
+      fonts:
+        - asset: assets/fonts/rockwellRegular.ttf
+    - family: harlow
+      fonts:
+        - asset: assets/fonts/harlowSolidRegular.ttf

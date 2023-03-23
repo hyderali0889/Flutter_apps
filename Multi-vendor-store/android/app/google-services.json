@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "87093606647",
+    "project_id": "zawarappflutter",
+    "storage_bucket": "zawarappflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87093606647:android:c4e4f6f93ec88286c4bbf2",
+        "android_client_info": {
+          "package_name": "com.zawarapp.flutterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87093606647-vgpo3brvfqnn8vdgrbu4jrts69756j3m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zawarapp.flutterapp",
+            "certificate_hash": "67ce560286fa0ba8c53e52bcba9febbdb0b4a5a4"
+          }
+        },
+        {
+          "client_id": "87093606647-gt6usdlj4siscoqm80lv3o0g8a8fkhm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeQZX3fhdZOWpjuBOCC9-ZmRAdZET1P3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87093606647-gt6usdlj4siscoqm80lv3o0g8a8fkhm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
